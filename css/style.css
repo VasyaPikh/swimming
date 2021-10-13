@@ -3,7 +3,7 @@ body {
 }
 
 ul {
-    font-family: 'Rubik';
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     list-style: none;
     height: 50px;
@@ -15,7 +15,6 @@ a {
     text-decoration: none;
     line-height: 50px;
     padding: 0 25px;
-    border-right: 2px solid #fff;
     transition: .3s all ease;
     display: block;
 }
@@ -32,4 +31,61 @@ a:hover {
     display: flex;
     justify-content: right;
     margin-top: -100px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:rgb(64, 228, 240);
+    border: solid;
+    padding: 10px 15px 10px 20px;
+}
+
+.info-records{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.records {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color:rgb(64, 228, 240);
+    border: solid;
+    padding: 10px 15px 10px 20px;
+}
+
+.line {
+    margin-top: 20px;
+    border: none; 
+    background-color: rgb(0, 0, 0);
+    height: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    background-color: rgb(17, 111, 199);
+    font-family: monospace;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
 }

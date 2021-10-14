@@ -1,0 +1,48 @@
+:root {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    border: solid 2px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 5px 10px 10px;
+    background-color: rgb(75, 202, 245);
+}
+
+.time {
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
+.nick{
+    display: block;
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+hr{
+    border: solid 1px;
+}
+
+.feed-text{
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 20px;
+}

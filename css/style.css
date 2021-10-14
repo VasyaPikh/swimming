@@ -15,7 +15,6 @@ a {
     text-decoration: none;
     line-height: 50px;
     padding: 0 25px;
-    transition: .3s all ease;
     display: block;
 }
 
@@ -23,9 +22,14 @@ li {
     float: left;
 }
 
-a:hover {
-    background-color: rgb(64, 228, 240);
+
+a:hover{
+    transition: 0.3s;
+    background-color: rgb(75, 202, 245);
+    border: solid;
+    border-color: rgb(2, 127, 185);
 }
+
 
 .log {
     display: flex;

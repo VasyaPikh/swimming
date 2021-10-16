@@ -1,34 +1,52 @@
 body {
     background: url(/img/background.jpg);
+    margin: 0;
 }
 
 ul {
-    float: left;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    list-style: none;
-    height: 50px;
-    padding-left: 2px;
+    display: inline-block;
+    width: 93%;
 }
 
-a {
-    color: rgb(0, 0, 0);
+.logo {
+    height: 80px;
+    float: right;
+}
+
+#navbar {
+    overflow: hidden;
+    border: solid;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(80, 175, 207);
+  }
+  
+
+  #navbar a {
+    color: black;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+    padding: 14px;
     text-decoration: none;
-    line-height: 50px;
-    padding: 0 25px;
-    display: block;
-}
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 93%;
+  }
+  
 
-li {
-    float: left;
-}
-
+  .sticky + .content {
+    padding-top: 60px;
+  }
 
 a:hover{
     transition: 0.3s;
     background-color: rgb(75, 202, 245);
-    border: solid;
-    border-color: rgb(2, 127, 185);
+    border-color: rgb(235, 239, 241);
+    border-radius: 2px;
 }
 
 
@@ -57,6 +75,7 @@ a:hover{
     background-color:rgb(64, 228, 240);
     border: solid;
     padding: 10px 15px 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .info-records{
@@ -74,6 +93,7 @@ a:hover{
     background-color:rgb(64, 228, 240);
     border: solid;
     padding: 10px 15px 10px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .line {

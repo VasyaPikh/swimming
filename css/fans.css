@@ -18,6 +18,12 @@ p{
     background-color: rgb(75, 202, 245);
 }
 
+.new-time{
+    display: flex;
+    justify-content: left;
+    margin-left: 20px;
+}
+
 .time {
     display: flex;
     justify-content: left;

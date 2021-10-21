@@ -4,4 +4,7 @@ function send() {
   x.value = ""
 }
 
- 
+function setData () {
+  let now = new Date().toLocaleString();
+  const click = document.getElementById('time-new');
+  }
